@@ -2,7 +2,7 @@
 
 function demandscience_script_enqueue() {
 
-  wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/demand-science.css', array(), '1.0.1', 'all');
+  wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/demand-science.css', array(), '1.0.4', 'all');
   wp_enqueue_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js', array(), '3.3.1', true);
   wp_enqueue_script('customjs', get_template_directory_uri() . '/js/demand-science.js', array(), '1.0.0', true);
 }

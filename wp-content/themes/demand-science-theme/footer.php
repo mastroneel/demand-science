@@ -15,7 +15,7 @@
         <?php wp_nav_menu(array('theme_location'=>'contactmenu')); ?>
       </div>
       <div class="col-xs-12 col-sm-2">
-        <p>
+        <p class="footer-p">
           17 Main Street<br>
           Topsfield, MA 01983
         </p>
