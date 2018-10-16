@@ -27,4 +27,7 @@ function demandscience_theme_setup() {
 
 add_action('init', 'demandscience_theme_setup');
 
+// remove_filter( 'the_content', 'wpautop' );
+// remove_filter( 'the_excerpt', 'wpautop' );
+
 ?>

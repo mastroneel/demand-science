@@ -48,7 +48,7 @@ ul {
 }
 
 .blue {
-  color: #76c8f5;
+  color: #4094ca;
 }
 
 .med-blue {
@@ -728,6 +728,10 @@ border-radius: 16px;
   padding-top: 100px;
 }
 
+.solutions-upper .white-box p.auto-width {
+  max-width: none;
+}
+
 .solutions-upper .white-box,
 .solutions-lower .white-box  {
   width: 70%;
@@ -808,11 +812,13 @@ border-radius: 16px;
   margin-top: 20px;
 }
 
-.solutions-lower .white-box .last-row {
+.solutions-lower .white-box .last-row,
+.solutions-upper .white-box .last-row {
   margin-bottom: 80px;
 }
 
-.solutions-lower .white-box a.learn-more {
+.solutions-lower .white-box a.learn-more,
+.solutions-upper .white-box a.learn-more {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
@@ -845,20 +851,23 @@ border-radius: 16px;
 }
 
 @media (max-width: 600px) {
-  .solutions-lower .white-box a.learn-more {
+  .solutions-lower .white-box a.learn-more,
+  .solutions-upper .white-box a.learn-more {
     font-size: 16px;
   }
 }
 
 @media (max-width: 552px) {
-  .solutions-lower .white-box a.learn-more {
+  .solutions-lower .white-box a.learn-more,
+  .solutions-upper .white-box a.learn-more {
     font-size: 14px;
     padding: 10px 15px;
   }
 }
 
 @media (max-width: 400px) {
-  .solutions-lower .white-box a.learn-more {
+  .solutions-lower .white-box a.learn-more,
+  .solutions-upper .white-box a.learn-more {
     font-size: 12px;
     padding: 10px;
   }
@@ -1085,16 +1094,16 @@ footer {
 }
 
 footer ul li a, footer ul li a:visited, footer .footer-p {
-  font-size: 10px !important;
+  font-size: 12px !important;
   color: #404040 !important;
 }
 
 #menu-why-demand-science #menu-item-73 a,
 #menu-item-74 a,
 #menu-item-77 a {
-  color: #54b8f3 !important;
+  color: #46aef1 !important;
   font-weight: 500 !important;
-  font-size: 12px;
+  font-size: 14px !important;
 }
 
 footer img {
@@ -1102,6 +1111,11 @@ footer img {
   display: block;
   margin: 0 auto;
 }
+
+/* footer .col-md-2 {
+  padding: 0;
+  margin: 0;
+} */
 
 .footer-divider {
 width: 80%;
@@ -1119,7 +1133,7 @@ margin: 40px auto 20px auto;
   margin: 0 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   footer img {
     display: none;
   }
@@ -1133,7 +1147,7 @@ margin: 40px auto 20px auto;
     max-width: none;
   }
   footer ul li a, footer ul li a:visited, footer p, footer .footer-p {
-    font-size: 12px !important;
+    font-size: 14px !important;
     color: #404040 !important;
     width: 100%;
     max-width: 290px;
@@ -1144,9 +1158,20 @@ margin: 40px auto 20px auto;
   #menu-item-77 a {
     color: #54b8f3 !important;
     font-weight: 500 !important;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
+
+/* @media (max-width: 900px) {
+  footer ul li a, footer ul li a:visited, footer p, footer .footer-p {
+    font-size: 10px !important;
+  }
+  #menu-why-demand-science #menu-item-73 a,
+  #menu-item-74 a,
+  #menu-item-77 a {
+    font-size: 12px;
+  }
+} */
 
 
 
