@@ -137,6 +137,16 @@ p {
   font-size: 16px;
 }
 
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  .menu-navbar-container ul li a {
+    font-size: 25px;
+  }
+  .menu-logo-container ul li a img {
+    height: 50px;
+  }
+}
+
 
 
 
@@ -195,7 +205,7 @@ p {
 .page-template-default .page-header h1 {
   color: #fff !important;
   font-weight: 300;
-  padding-top: 170px;
+  padding-top: 200px;
 }
 
 @media (min-width: 1850px) {
@@ -215,6 +225,24 @@ p {
     margin-top: -150px;
     background-image: url('../img/default-mobile-bg.png');
     background-position: bottom center;
+  }
+}
+
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 1000px) {
+  .page-template-default .page-header {
+    height: 70vh;
+  }
+  .page-template-default .page-header h1 {
+    font-size: 60px;
+    padding-top: 220px;
+  }
+  .page-template-default .page-container {
+    margin-top: -160px;
+  }
+  .page-template-default .page-container p {
+    font-size: 22px;
+    max-width: 1300px;
   }
 }
 
@@ -272,9 +300,41 @@ p {
   }
 }
 
-@media (min-width: 2200px) {
+@media (min-width: 1670px) and (min-height: 900px) {
   .demand-science-home .hero {
     min-height: 900px;
+    /* background-size: 120%; */
+  }
+  .demand-science-home .hero h1 {
+    padding-top: 200px;
+    font-size: 70px;
+    max-width: 1000px;
+  }
+  .demand-science-home .info {
+    font-size: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+  .demand-science-home a.learn-more {
+    font-size: 25px !important;
+    padding: 15px 40px;
+  }
+  .demand-science-home h1.bold {
+    font-size: 40px !important;
+  }
+  .demand-science-home .sales-info-box h3,
+  .demand-science-home .sales-info-box p {
+    font-size: 25px;
+    /* max-width: 400px; */
+  }
+  .demand-science-home .sales-info-box p.small.blue.italic {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .demand-science-home .hero {
+    min-height: 1200px;
   }
 }
 
@@ -570,15 +630,31 @@ border-radius: 16px;
   }
 }
 
-@media (min-width: 1900px) and (min-height: 1100px) {
+@media (min-width: 1670px) and (min-height: 900px) {
   .why-hero {
-    height: 80vh;
+    height: 90vh;
+    min-height: 900px;
+  }
+  .why-hero h1 {
+    font-size: 60px;
+    max-width: 1000px;
+  }
+  .why-hero p {
+    font-size: 26px;
+    max-width: 900px;
+    margin-bottom: 10px;
+  }
+  .why-hero a.learn-more-white {
+    font-size: 26px;
+  }
+  .why-page-content {
+    margin-top: -300px;
   }
   .why-page-content img {
     height: 500px;
   }
   .why-page-content h2 {
-    font-size: 50px;
+    font-size: 40px;
     max-width: 480px;
   }
   .why-page-content p {
@@ -593,7 +669,11 @@ border-radius: 16px;
     margin-top: 100px;
   }
   .why-page-content .row {
-    height: 90vh;
+    height: 80vh;
+    min-height: 800px;
+  }
+  .why-page-content .blue-bg-row {
+    min-height: 1000px !important;
   }
 }
 
@@ -884,6 +964,38 @@ border-radius: 16px;
   }
 }
 
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  .solutions-upper h1 {
+    font-size: 60px;
+    max-width: 1000px;
+  }
+  .solutions-upper .white-box h2,
+  .solutions-lower .white-box h2 {
+    font-size: 40px;
+  }
+  .solutions-upper .white-box a.learn-more,
+  .solutions-lower .white-box a.learn-more {
+    font-size: 22px;
+  }
+  .solutions-upper .white-box p,
+  .solutions-lower .white-box .row h4 {
+    font-size: 25px !important;
+    max-width: 350px !important;
+  }
+  .solutions-lower .white-box .row .img-container {
+    max-width: 350px;
+  }
+  .solutions-lower .white-box .row ul {
+    max-width: 300px;
+  }
+  .solutions-upper .white-box p.auto-width {
+    max-width: none !important;
+  }
+  .solutions-lower .white-box .row ul li  {
+    font-size: 25px;
+  }
+}
 
 
 /* contact page styles  */
@@ -914,6 +1026,14 @@ border-radius: 16px;
 @media (max-width: 450px) {
   .contact-page-container h1 {
     font-size: 30px;
+  }
+}
+
+
+/* large screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  .contact-page-container h1 {
+    font-size: 60px;
   }
 }
 
@@ -1023,7 +1143,24 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
   }
 }
 
-
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  #wpforms-form-129 {
+    max-width: 900px;
+  }
+  #wpforms-form-129 label {
+    font-size: 20px;
+  }
+  #wpforms-form-129 input,
+  #wpforms-form-129 select {
+    height: 80px;
+    font-size: 20px;
+  }
+  .send-button {
+    font-size: 25px !important;
+    width: 200px !important;
+  }
+}
 
 
 
@@ -1082,6 +1219,22 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     min-height: 100vh;
   }
 }
+
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  .confirmation-box h2 {
+    font-weight: 300;
+    font-size: 45px;
+  }
+  .confirmation-box p {
+    font-size: 20px;
+  }
+  .confirmation-box a.learn-more {
+    font-size: 25px;
+  }
+}
+
+
 
 
 
@@ -1172,6 +1325,23 @@ margin: 40px auto 20px auto;
     font-size: 12px;
   }
 } */
+
+
+/* larger screens */
+@media (min-width: 1670px) and (min-height: 900px) {
+  footer ul li a, footer ul li a:visited, footer .footer-p {
+    font-size: 16px !important;
+  }
+  #menu-why-demand-science #menu-item-73 a,
+  #menu-item-74 a,
+  #menu-item-77 a {
+    font-size: 20px !important;
+  }
+  footer img {
+    height: 60px;
+  }
+}
+
 
 
 
